@@ -49,16 +49,4 @@ fn main() {
     let ext = "NEF";
 
     run_on_directory(path, callback, base, ext);
-
-    // for path in paths {
-    //     let p = path.unwrap();
-    //     println!("Name: {}", p.path().display());
-
-    //     if p.metadata().unwrap().is_dir() {
-    //         let child = fs::read_dir(format!("{}", p.path().display())).unwrap();
-    //         for path in child {
-    //             println!("Name: {}", path.unwrap().path().display());
-    //         }
-    //     }
-    // }
 }
