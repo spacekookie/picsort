@@ -1,0 +1,7 @@
+[package]
+name = "picsort"
+version = "0.1.0"
+authors = ["Katharina Fey <kookie@spacekookie.de>"]
+
+[dependencies]
+clap = "*"
